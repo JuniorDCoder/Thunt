@@ -4,8 +4,8 @@ import BaseLayout from '@/BaseLayout.vue';
 <template>
   <BaseLayout>
     <div class="pb-96">
-      <div class="px-28">
-        <div class="flex-row mt-24">
+      <div class="">
+        <div class="flex-row mt-24 px-28">
           <div class="flex flex-col w-1/2 gap-20">
             <h1 class="z-10 font-bold text-8xl">About Us</h1>
             <p class="z-10 w-full text-2xl leading-10">At Thunt, we believe in the transformative power of education and the importance 
@@ -19,15 +19,18 @@ import BaseLayout from '@/BaseLayout.vue';
                
                Let’s make learning easier, together.</p>
           </div>
+          <div class="">
+            <div class="absolute w-20 h-[500px] border-2 rounded-t-full bottom-0 left-[75%] bg-secondary"></div>
+            <div class="absolute w-20 h-[400px] border-2 rounded-t-full bottom-0 left-[80%] bg-tertiary"></div>
+            <div class="absolute w-20 h-[650px] border-2 rounded-t-full bottom-0 left-[85%] bg-quaternary"></div>
+            <div class="absolute w-20 h-[480px] border-2 rounded-t-full bottom-0 left-[90%] bg-primary"></div>
+          </div>
         </div>
-      </div>
-  
-      <div class="">
-        <div class="absolute w-20 h-[500px] border-2 rounded-t-full bottom-0 left-[75%] bg-secondary"></div>
-        <div class="absolute w-20 h-[400px] border-2 rounded-t-full bottom-0 left-[80%] bg-tertiary"></div>
-        <div class="absolute w-20 h-[650px] border-2 rounded-t-full bottom-0 left-[85%] bg-quaternary"></div>
-        <div class="absolute w-20 h-[480px] border-2 rounded-t-full bottom-0 left-[90%] bg-primary"></div>
-      </div>
+       
+      </div> 
+     
+
+      
     </div>
     
   </BaseLayout>
